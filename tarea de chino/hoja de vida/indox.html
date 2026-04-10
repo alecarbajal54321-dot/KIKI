@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hoja de Vida Futurista - Bryan</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Orbitron', 'Segoe UI', sans-serif;
+    color: #e6f7ff;
+    background: #05010a;
+}
+
+/* EFECTO DE FONDO CON GRID */
+body::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,255,255,0.08) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(0,255,255,0.08) 1px, transparent 1px);
+    background-size: 40px 40px;
+    z-index: -1;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid #00ffff;
+    box-shadow: 0 0 20px #00ffff;
+}
+
+/* ESTILO PARA LA FOTO */
+.profile-img-container {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    border: 3px solid #00ffff;
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff inset;
+    overflow: hidden;
+    background: #000;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+header h1 {
+    font-size: 42px;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 30px #00ffff;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 16px;
+    color: #99ffff;
+}
+
+section {
+    margin: 25px auto;
+    padding: 25px;
+    max-width: 800px;
+    border-radius: 15px;
+    background: rgba(10, 10, 30, 0.85);
+    border: 1px solid rgba(0,255,255,0.3);
+    box-shadow: 0 0 15px rgba(0,255,255,0.2);
+    transition: all 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 0 25px #00ffff;
+}
+
+h2 {
+    color: #00ffff;
+    border-left: 5px solid #00ffff;
+    padding-left: 10px;
+    text-shadow: 0 0 5px #00ffff;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+.highlight {
+    color: #00ffff;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    border-top: 2px solid #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="profile-img-container">
+        <img src="tu_foto.jpg" alt="Foto de Bryan" class="profile-img">
+    </div>
+    <h1>Bryan Yamil Ortega Vargas</h1>
+    <p>Ingeniero de Sistemas del Futuro | Especialista en IA y Tecnología Avanzada - Año 2031</p>
+</header>
+
+<section>
+    <h2>Perfil Futurista</h2>
+    <p>
+        Ingeniero de Sistemas con mentalidad innovadora, enfocado en inteligencia artificial, desarrollo de software
+        avanzado y automatización de procesos digitales. Capaz de diseñar soluciones tecnológicas de alto impacto.
+    </p>
+</section>
+
+<section>
+    <h2>Experiencia</h2>
+    <ul>
+        <li><span class="highlight">Ingeniero en Inteligencia Artificial</span> - Empresa Tecnológica Global (2029 - 2031)</li>
+        <li><span class="highlight">Desarrollador Full Stack</span> - Startup Digital (2027 - 2029)</li>
+        <li><span class="highlight">Programador Freelance</span> - Proyectos Inteligentes (2026 - 2027)</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Educación</h2>
+    <ul>
+        <li>Ingeniería de Sistemas - Universidad Tomás Frías</li>
+        <li>Especialización en Inteligencia Artificial</li>
+        <li>Certificaciones en Desarrollo Web y Software</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Habilidades</h2>
+    <ul>
+        <li>HTML, CSS y JavaScript</li>
+        <li>Programación en Java</li>
+        <li>Bases de Datos (SQL / NoSQL)</li>
+        <li>Machine Learning</li>
+        <li>Automatización de Sistemas</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Metas Futuras</h2>
+    <ul>
+        <li>Crear una empresa tecnológica innovadora</li>
+        <li>Desarrollar inteligencia artificial avanzada</li>
+        <li>Impactar a nivel mundial con tecnología</li>
+        <li>Ser referente en ingeniería de sistemas</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contacto</h2>
+    <p>Email: bryan.future@email.com</p>
+    <p>Teléfono: +591 XXXXXXXX</p>
+</section>
+
+<footer>
+    <p>"El futuro se construye con código"</p>
+</footer>
+
+</body>
+</html>
